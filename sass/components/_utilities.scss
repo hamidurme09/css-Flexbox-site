@@ -1,0 +1,44 @@
+h1 {
+    font-size: 5rem;
+    color: $green;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    outline: 3px solid $white;
+    outline-offset: 1.5rem;
+    display: inline-block;
+    margin: 2.5rem 0;
+    
+    span {
+      font-weight: 300;
+    }
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+    span {
+      color: #0F9;
+    }
+  }
+  
+  p {
+    span {
+      color: #0F9;
+    }
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: .7em 1.7em;
+    background: $green;
+    color: $black;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 1rem;
+    
+    &:hover {
+      background: darken($green, 10%);
+    }
+  }
+  
